@@ -1,0 +1,39 @@
+.container h2 {
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form input,
+.form select,
+.form textarea {
+  padding: 10px 20px;
+  background-color: var(--color-background-light);
+  border: none;
+  border-radius: 5px;
+  color: var(--color-text);
+}
+
+.addButton {
+  padding: 10px 20px;
+  background-color: var(--color-button);
+  color: var(--color-text);
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.error {
+  color: var(--color-error);
+  font-size: 14px;
+}
+
+.success {
+  color: var(--color-success);
+  font-size: 14px;
+}

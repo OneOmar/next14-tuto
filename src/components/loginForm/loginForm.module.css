@@ -1,0 +1,40 @@
+.credentialsForm {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+}
+
+.credentialsForm input {
+  padding: 20px;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  border: none;
+  border-radius: 5px;
+}
+
+.credentialsForm button {
+  padding: 20px;
+  cursor: pointer;
+  background-color: var(--color-button);
+  color: var(--color-text);
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+
+.githubForm button {
+  width: 100%;
+  padding: 20px;
+  cursor: pointer;
+  background-color: #fff;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+
+.error {
+  color: var(--color-error);
+  font-size: 14px;
+}

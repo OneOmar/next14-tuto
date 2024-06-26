@@ -1,0 +1,86 @@
+:root {
+  /* --color-primary: #FFC107;
+    --color-secondary: #FF9800; */
+  --color-text: #ffffff;
+  --color-text-light: #e5e5e5;
+  --color-text-dark: #a6a6a6;
+  --color-background: #0d0c22;
+  --color-background-light: #2d2b42;
+  --color-background-dark: #0a091b;
+  --color-error: #f44336;
+  --color-success: #4caf50;
+  --color-warning: #ffeb3b;
+  --color-info: #2196f3;
+  --color-button: #2196f3;
+  --color-button-hover: #1976d2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: 'Roboto', sans-serif; */
+  color: var(--color-text);
+  background-color: var(--color-background);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  /* width: 1366px; */
+  max-width: 1366px;
+  min-height: 100vh;
+  margin: auto;
+  padding: 0 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Responsive design */
+/* https://blog.logrocket.com/css-breakpoints-responsive-design/ */
+
+@media (max-width: 1366px) {
+  .container {
+    width: 1280px;
+    padding: 0 40px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .container {
+    width: 1024px;
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    width: 768px;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 640px;
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    width: 480px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 380px;
+  }
+}
